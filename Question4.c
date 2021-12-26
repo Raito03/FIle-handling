@@ -33,7 +33,6 @@ void main()
         fscanf(fp2,"%s",ch2);
         printf("%s ",ch2);
     }
-    printf("hello\n");
     fp3=fopen("Ohayou.txt","a+");
     if (fp3==NULL)
     {
